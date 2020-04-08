@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> FORM KONTAK </title>
+    <style type="text/css">
+        h1 {font-family: verdana; text-align: center; background-color:#E9967A;}
+        body { background-image: url('wall2.png'); background-size: 100%; background-position: fixed; padding-left: 450px; padding-right: 500px;}
+    </style>
+</head>
+    <h1> FORM KONTAK </h1>
+<body>
+<font size="4"><font face="Courier New">
+<table width="500" align="center">
+    <form method="POST" action="simpan_kontak.php">
+        <tr></tr>
+        <br><tr>
+            <td> Nama </td>
+            <td> : </td>
+            <td>
+                <input type="text" name="nama" id="Nama"/>
+            </td>
+        </tr>
+        <tr>
+            <td> Jenis Kelamin </td>
+            <td> : </td>
+            <td>
+                <input type="radio" name="jkel" value="Perempuan"> Perempuan
+                <input type="radio" name="jkel" value="Laki-Laki"> Laki-Laki
+            </td>
+        <tr></tr>
+            <td> Email </td>
+            <td> : </td>
+            <td>
+                <input type="text" name="email" id="email"/>
+            </td>
+        <tr></tr>
+            <td> Alamat </td>
+            <td> : </td>
+            <td>
+                <input type="text" name="alamat" id="alamat">
+            </td>
+            <tr></tr>
+            <td> Kota </td>
+            <td> : </td>
+            <td>
+                <select name="kota"><font face="Courier New">
+                    <option value="Sidoarjo"> Sidoarjo </option>
+                    <option value="Surabaya"> Surabaya </option>
+                    <option value="Malang"> Malang </option>
+                    <option value="Bandung"> Bandung </option>
+                    <option value="Jakarta"> Jakarta </option>
+                    <option value="Jember"> Jember </option>
+                </font></select>
+            </td>
+            <tr></tr>
+                <td> Pesan </td>
+                <td> : </td>
+                <td>
+                    <textarea name="pesan" cols="50" rows="5" align="center"></textarea>
+                </td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="submit" value="SAVE" align="center"></td>
+        </tr>
+    </form>
+</table>
+</font></font>
+</body>
+</html>
